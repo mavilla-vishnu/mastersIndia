@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Invoice">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_createinvoice"
+                    android:title="Add Invoice"
+                    android:icon="@drawable/menu_add"/>
+                <item
+                    android:id="@+id/nav_viewinvoice"
+                    android:title="View Invoice"
+                    android:icon="@drawable/menu_invoice"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/mc_dir">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_tax"
+                    android:title="@string/menu_tax"
+                    android:icon="@drawable/menu_tax"/>
+                <item
+                    android:id="@+id/nav_suppliers"
+                    android:title="@string/menu_suppliers"
+                    android:icon="@drawable/menu_suppliers"/>
+                <item
+                    android:id="@+id/nav_customers"
+                    android:title="@string/menu_customers"
+                    android:icon="@drawable/menu_customer"/>
+                <item
+                    android:id="@+id/nav_items"
+                    android:title="@string/menu_items"
+                    android:icon="@drawable/menu_item"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_busmgmt"
+        android:title="@string/mc_business_management"
+        android:icon="@drawable/menu_business">
+    </item>
+    <item
+        android:title="@string/menu_users"
+        android:icon="@drawable/menu_people">
+    </item>
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/menu_settings"
+        android:title="@string/menu_settings"></item>
+</menu>

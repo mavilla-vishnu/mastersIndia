@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/sort_fav"
+            android:title="By Favourites"
+            android:orderInCategory="1" />
+        <item android:id="@+id/sort_estock"
+            android:title="By Empty stock"
+            android:orderInCategory="1" />
+        <item android:id="@+id/sort_bynaz"
+            android:title="By Name (A-Z)"
+            android:orderInCategory="1" />
+        <item android:id="@+id/sort_bynza"
+            android:title="By Name (Z-A)"
+            android:orderInCategory="1" />
+        <item android:id="@+id/sort_byplh"
+            android:title="By Price (Low-High)"
+            android:orderInCategory="1" />
+        <item android:id="@+id/sort_byphl"
+            android:title="By Price (High-Low)"
+            android:orderInCategory="1" />
+
+    </group>
+</menu>
