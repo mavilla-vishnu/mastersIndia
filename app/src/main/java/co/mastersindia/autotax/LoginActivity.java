@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
     private TinyDB database;
@@ -28,6 +29,7 @@ public class LoginActivity extends AppCompatActivity {
                 boolean setupCookie=database.getBoolean("setup");
                 if(setupCookie){
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    Toast.makeText(LoginActivity.this, "Remove this", Toast.LENGTH_SHORT).show();
                     startActivity(intent);
                     finish();
                 }
